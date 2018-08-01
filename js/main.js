@@ -16,9 +16,11 @@ $search.on('keyup', function() {
     console.log($cap);
 
     if ($cap.includes($input)) {
-      $(caption).parentElement.style.display = "flex";
+      caption.style.display = "flex";
+      console.log("found");
     } else {
-      $(caption).parentELement.style.display = "none";
+      caption.style.display = "none";
+      console.log("nothing");
     }
   });
 
