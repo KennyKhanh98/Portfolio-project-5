@@ -15,11 +15,11 @@ $search.on('keyup', function() {
     const $cap = $(caption).attr('data-title').toLowerCase();
     console.log($cap);
 
-    // if ($cap.includes($input)) {
-    //   $(caption).parentElement.style.display = "flex";
-    // } else {
-    //   $(caption).parentELement.style.display = "none";
-    // }
+    if ($cap.includes($input)) {
+      $(caption).parentElement.style.display = "flex";
+    } else {
+      $(caption).parentELement.style.display = "none";
+    }
   });
 
 });
