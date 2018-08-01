@@ -12,10 +12,12 @@ img {
 }
 
 .container {
+  width: 80%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  margin: auto;
 }
 
 .search {
